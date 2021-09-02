@@ -1,0 +1,22 @@
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    width: calc((100% / 3) - 12px);
+    margin: 10px 6px;
+    border-radius: 10px;
+    max-height: 200px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.portfolio-item .project-name {
+    position: absolute;
+}
+
+.portfolio-item .project-type {
+    position: absolute;
+}

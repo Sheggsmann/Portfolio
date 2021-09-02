@@ -14,6 +14,7 @@
     font-family: 'Poppins', sans-serif;
     -webkit-tap-highlight-color: transparent;
     outline: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -390,9 +391,48 @@ p {
 }
 
 
+/* Scroll Top Button */
+
+.scroll-top {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 40px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: var(--dark-light);
+    color: var(--white-light);
+    z-index: 20;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.scroll-top:hover {
+    color: var(--main-color);
+}
+
+.scroll-top.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Scroll Top Button */
+
+
 
 
 @media (max-width: 991px) {
+    .scroll-top {
+        display: none;
+    }
+
     .nav-toggler {
         display: block;
         margin-left: auto;
@@ -402,6 +442,7 @@ p {
         color: #fff;
         background-color: transparent;
         border: none;
+        cursor: pointer
     }
 
     .navbar-nav {

@@ -1,3 +1,13 @@
+:root {
+    --main-color: #09d69c;
+    --white-light: #d5d5d5;
+    --dark-dark: #252525;
+    --dark-tint: #333333;
+    --dark: #222222;
+    --dark-light: #444;
+    --shadow: 0 0 25px 0 rgb(0 0 0 / 80%);
+}
+
 .container {
     max-width: 1250px;
     padding: 0 15px;
@@ -41,6 +51,23 @@
 
 .section-padding {
     padding: 20px 0;
+}
+
+.page-title {
+    background-color: var(--dark-dark);
+    padding: 50px 0;
+    border-top: 2px solid var(--dark-tint);
+    border-bottom: 2px solid var(--dark-tint);
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.page-title h1 {
+    font-size: 45px;
+    color: var(--white-light);
+    font-weight: 600;
+    text-align: left;
+    margin-right: auto;
 }
 
 @media (max-width: 767px) {
