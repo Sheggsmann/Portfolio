@@ -1,6 +1,20 @@
+const pageLoader = document.querySelector('.page-loader');
+setTimeout(() => {
+    pageLoader.classList.add('hide');
+}, 4000);
+
+
 $(document).ready(function() {
 
-    
+    // Toggle Navigation    
+    const navToggler = document.querySelector('.nav-toggler');
+    navToggler.addEventListener('click', () => {
+        document.querySelector('.navbar-inner').classList.toggle('show');
+    })
+    // Toggle Navigation
+
+
+
     const scrollBtn = document.querySelector('.scroll-top');
     window.addEventListener('scroll', (e) => {
         if (window.scrollY > 200) {

@@ -1,3 +1,10 @@
+.page-title .contact-subtitle {
+    position: absolute;
+    right: 10%;
+    top: 30px;
+}
+
+
 .contact-item {
     position: relative;
     padding: 15px 0 15px 60px;
@@ -53,7 +60,7 @@
 }
 
 .contact-form textarea {
-    padding: 20px 0 0;
+    padding: 10px 10px !important;
     height: 150px !important;
     resize: none;
 }
@@ -74,5 +81,14 @@
 
     .col-6 {
         margin-top: 40px;
+        padding: 0 10px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .page-title .contact-subtitle {
+        left: 6%;
+        top: 110px;    
     }
 }
