@@ -243,7 +243,7 @@ p {
 
 @media (max-width: 768px) {
     .home-img .home-img-inner img {
-        transform: scale(0.9) translateY(-30px);
+        transform: scale(0.93) translateY(-30px);
     }
 }
 
