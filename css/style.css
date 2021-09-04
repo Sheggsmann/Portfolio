@@ -46,7 +46,7 @@ p {
 
 .btn {
     display: inline-block;
-    padding: 7px 20px;
+    padding: 7px 24px;
     border: 2px solid transparent;
     text-transform: capitalize;
     color: #fff;
@@ -210,7 +210,6 @@ p {
 
 .home .col-4 {
     padding-left: 120px;
-    /* background-color: red; */
 }
 
 .home .col-6 {
@@ -244,6 +243,14 @@ p {
 @media (max-width: 768px) {
     .home-img .home-img-inner img {
         transform: scale(0.93) translateY(-40px);
+    }
+
+    .home .home-text .home-text-inner {
+        max-width: 650px;
+    }
+
+    .home .col-6 {
+        padding-left: 10px !important;
     }
 }
 
