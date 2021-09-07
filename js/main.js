@@ -1,7 +1,7 @@
 const pageLoader = document.querySelector('.page-loader');
 setTimeout(() => {
     pageLoader.classList.add('hide');
-}, 4000);
+}, 1000);
 
 
 $(document).ready(function() {

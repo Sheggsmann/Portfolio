@@ -25,6 +25,10 @@ body {
     overflow-x: hidden;
 }
 
+body.hide-scroll {
+    overflow-y: hidden;
+}
+
 ul {
     margin: 0;
     list-style: none;
