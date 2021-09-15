@@ -35,6 +35,7 @@ $(document).ready(function() {
     const navToggler = document.querySelector('.nav-toggler');
     navToggler.addEventListener('click', () => {
         document.querySelector('.navbar-inner').classList.toggle('show');
+        console.log("Clicked");
     })
     // Toggle Navigation
 
