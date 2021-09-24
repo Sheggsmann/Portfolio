@@ -256,6 +256,10 @@ p {
     .home .col-6 {
         padding-left: 10px !important;
     }
+
+    .home-text-about {
+        text-align: center;
+    }
 }
 
 .home-text span {

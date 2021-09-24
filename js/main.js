@@ -5,8 +5,6 @@ setTimeout(() => {
 
 
 $(document).ready(function() {
-
-
     const textWrappers = document.querySelectorAll('.ml12');
     textWrappers.forEach(textWrapper => {
         textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
@@ -35,7 +33,6 @@ $(document).ready(function() {
     const navToggler = document.querySelector('.nav-toggler');
     navToggler.addEventListener('click', () => {
         document.querySelector('.navbar-inner').classList.toggle('show');
-        console.log("Clicked");
     })
     // Toggle Navigation
 
@@ -47,8 +44,6 @@ $(document).ready(function() {
             scrollBtn.classList.remove('show');
         }
     })
-
-
 
     // Testimonial Carousel
     $('.testimonials-carousel').owlCarousel({

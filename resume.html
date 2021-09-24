@@ -264,9 +264,13 @@
 
     <!-- Footer End -->
 
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/owl.carousel.min.js"></script>
-    <script src="/js/main.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        const navToggler = document.querySelector('.nav-toggler');
+        navToggler.addEventListener('click', () => {
+            document.querySelector('.navbar-inner').classList.toggle('show');
+        })
+    </script>
 
 </body>
 </html>
