@@ -122,6 +122,9 @@
     padding: 40px 0 !important;
 }
 
+.footer-padding {
+    padding: 20px 0;
+}
 
 
 @media (max-width: 991px) {

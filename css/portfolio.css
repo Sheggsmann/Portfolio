@@ -145,7 +145,7 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--dark);
+    background-color: var(--dark-light);
 }
 
 .pp-overlay.prev,
@@ -248,7 +248,7 @@ a {
 }
 
 .pp-title {
-    font-size: 45px;
+    font-size: 38px;
     margin-bottom: 30px;
 }
 
@@ -333,6 +333,10 @@ a {
     .pp-right {
         width: 100%;
         padding: 0;
+    }
+
+    .pp-title {
+        font-size: 30px;
     }
 }
 

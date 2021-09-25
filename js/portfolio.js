@@ -34,9 +34,10 @@ function changePortfolioDetails(portfolioItem) {
   document.querySelector(".description").innerText = renderedData.querySelector(
     ".portfolio-description"
   ).innerText;
+  console.log(portfolioItem);
   updateTechStack(
     document.querySelector(".tech-stack-list"),
-    portfolioItem.querySelector(".tech-stack").children
+    portfolioItem.querySelectorAll('.tech-stack-item')
   );
 }
 
