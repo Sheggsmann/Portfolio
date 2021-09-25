@@ -125,22 +125,22 @@
                     </div>
 
                     <div class="contact-form">
-                        <form action="" method="POST">
+                        <form name="Client" method="POST" data-netlify="true">
                             <div class="row space-between">
                                 <div class="col-5">
-                                    <input type="text" placeholder="Your Name" class="form-control" required>
+                                    <input name="Name" type="text" placeholder="Your Name" class="form-control" required>
                                 </div>
                                 <div class="col-5">
-                                    <input type="email" placeholder="Your Email" class="form-control" required>
+                                    <input name="Email" type="email" placeholder="Your Email" class="form-control" required>
                                 </div>
                             </div>
 
                             <div class="row m-5">
-                                <input type="text" placeholder="Subject" class="form-control" required>
+                                <input name="Subject" type="text" placeholder="Subject" class="form-control" required>
                             </div>
 
                             <div class="row m-5">
-                                <textarea placeholder="Message" class="form-control"></textarea>
+                                <textarea name="Message" placeholder="Message" class="form-control"></textarea>
                             </div>
 
                             <input type="submit" value="Send Message" class="btn btn-1">
