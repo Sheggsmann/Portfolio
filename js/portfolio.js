@@ -7,7 +7,6 @@ document.addEventListener("click", (e) => {
     portfolioItemIndex = [...portfolioItems].indexOf(currentItem);
     togglePopup();
     toggleBodyScrolling();
-    // loadPortfolioDetails(currentItem);
     updateNextPrevItem(portfolioItemIndex);
   }
 });
@@ -34,7 +33,6 @@ function changePortfolioDetails(portfolioItem) {
   document.querySelector(".description").innerText = renderedData.querySelector(
     ".portfolio-description"
   ).innerText;
-  console.log(portfolioItem);
   updateTechStack(
     document.querySelector(".tech-stack-list"),
     portfolioItem.querySelectorAll('.tech-stack-item')

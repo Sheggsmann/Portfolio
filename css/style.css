@@ -217,7 +217,7 @@ p {
 }
 
 .home .col-6 {
-    padding-left: 60px;
+    padding-left: 35px;
 }
 
 .home-img {
@@ -241,7 +241,7 @@ p {
 }
 
 .home .home-text .home-text-inner {
-    max-width: 500px;
+    max-width: 550px;
 }
 
 @media (max-width: 768px) {
